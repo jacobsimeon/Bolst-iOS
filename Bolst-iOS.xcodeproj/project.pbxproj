@@ -35,17 +35,17 @@
 		A1570B751571461F00B7C7A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1570B771571461F00B7C7A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1570B791571461F00B7C7A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A1570B7D1571461F00B7C7A9 /* Bolst-iOS-Info.plist */ = {isa = PBXFileReference; path = "Bolst-iOS-Info.plist"; sourceTree = "<group>"; };
+		A1570B7D1571461F00B7C7A9 /* Bolst-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bolst-iOS-Info.plist"; sourceTree = "<group>"; };
 		A1570B7F1571461F00B7C7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1570B811571461F00B7C7A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1570B831571461F00B7C7A9 /* Bolst-iOS-Prefix.pch */ = {isa = PBXFileReference; path = "Bolst-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		A1570B841571461F00B7C7A9 /* BLAppDelegate.h */ = {isa = PBXFileReference; path = BLAppDelegate.h; sourceTree = "<group>"; };
+		A1570B831571461F00B7C7A9 /* Bolst-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bolst-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		A1570B841571461F00B7C7A9 /* BLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLAppDelegate.h; sourceTree = "<group>"; };
 		A1570B851571461F00B7C7A9 /* BLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAppDelegate.m; sourceTree = "<group>"; };
 		A1570B8C1571461F00B7C7A9 /* Bolst-iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bolst-iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1570B8D1571461F00B7C7A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A1570B951571461F00B7C7A9 /* Bolst-iOSTests-Info.plist */ = {isa = PBXFileReference; path = "Bolst-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		A1570B951571461F00B7C7A9 /* Bolst-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bolst-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		A1570B971571461F00B7C7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1570B991571461F00B7C7A9 /* Bolst_iOSTests.h */ = {isa = PBXFileReference; path = Bolst_iOSTests.h; sourceTree = "<group>"; };
+		A1570B991571461F00B7C7A9 /* Bolst_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bolst_iOSTests.h; sourceTree = "<group>"; };
 		A1570B9A1571461F00B7C7A9 /* Bolst_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bolst_iOSTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
