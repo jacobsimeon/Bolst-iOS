@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1570B761571461F00B7C7A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1570B751571461F00B7C7A9 /* UIKit.framework */; };
+		A1570B781571461F00B7C7A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1570B771571461F00B7C7A9 /* Foundation.framework */; };
+		A1570B7A1571461F00B7C7A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1570B791571461F00B7C7A9 /* CoreGraphics.framework */; };
+		A1570B801571461F00B7C7A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1570B7E1571461F00B7C7A9 /* InfoPlist.strings */; };
+		A1570B821571461F00B7C7A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1570B811571461F00B7C7A9 /* main.m */; };
+		A1570B861571461F00B7C7A9 /* BLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1570B851571461F00B7C7A9 /* BLAppDelegate.m */; };
+		A1570B8E1571461F00B7C7A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1570B8D1571461F00B7C7A9 /* SenTestingKit.framework */; };
+		A1570B8F1571461F00B7C7A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1570B751571461F00B7C7A9 /* UIKit.framework */; };
+		A1570B901571461F00B7C7A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1570B771571461F00B7C7A9 /* Foundation.framework */; };
+		A1570B981571461F00B7C7A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1570B961571461F00B7C7A9 /* InfoPlist.strings */; };
+		A1570B9B1571461F00B7C7A9 /* Bolst_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1570B9A1571461F00B7C7A9 /* Bolst_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1570B911571461F00B7C7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1570B681571461E00B7C7A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1570B701571461F00B7C7A9;
+			remoteInfo = "Bolst-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1570B711571461F00B7C7A9 /* Bolst-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bolst-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1570B751571461F00B7C7A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1570B771571461F00B7C7A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1570B791571461F00B7C7A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1570B7D1571461F00B7C7A9 /* Bolst-iOS-Info.plist */ = {isa = PBXFileReference; path = "Bolst-iOS-Info.plist"; sourceTree = "<group>"; };
+		A1570B7F1571461F00B7C7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1570B811571461F00B7C7A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1570B831571461F00B7C7A9 /* Bolst-iOS-Prefix.pch */ = {isa = PBXFileReference; path = "Bolst-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		A1570B841571461F00B7C7A9 /* BLAppDelegate.h */ = {isa = PBXFileReference; path = BLAppDelegate.h; sourceTree = "<group>"; };
+		A1570B851571461F00B7C7A9 /* BLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAppDelegate.m; sourceTree = "<group>"; };
+		A1570B8C1571461F00B7C7A9 /* Bolst-iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bolst-iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1570B8D1571461F00B7C7A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1570B951571461F00B7C7A9 /* Bolst-iOSTests-Info.plist */ = {isa = PBXFileReference; path = "Bolst-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		A1570B971571461F00B7C7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1570B991571461F00B7C7A9 /* Bolst_iOSTests.h */ = {isa = PBXFileReference; path = Bolst_iOSTests.h; sourceTree = "<group>"; };
+		A1570B9A1571461F00B7C7A9 /* Bolst_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bolst_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1570B6E1571461F00B7C7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1570B761571461F00B7C7A9 /* UIKit.framework in Frameworks */,
+				A1570B781571461F00B7C7A9 /* Foundation.framework in Frameworks */,
+				A1570B7A1571461F00B7C7A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1570B881571461F00B7C7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1570B8E1571461F00B7C7A9 /* SenTestingKit.framework in Frameworks */,
+				A1570B8F1571461F00B7C7A9 /* UIKit.framework in Frameworks */,
+				A1570B901571461F00B7C7A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1570B661571461E00B7C7A9 = {
+			isa = PBXGroup;
+			children = (
+				A1570B7B1571461F00B7C7A9 /* Bolst-iOS */,
+				A1570B931571461F00B7C7A9 /* Bolst-iOSTests */,
+				A1570B741571461F00B7C7A9 /* Frameworks */,
+				A1570B721571461F00B7C7A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1570B721571461F00B7C7A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1570B711571461F00B7C7A9 /* Bolst-iOS.app */,
+				A1570B8C1571461F00B7C7A9 /* Bolst-iOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1570B741571461F00B7C7A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1570B751571461F00B7C7A9 /* UIKit.framework */,
+				A1570B771571461F00B7C7A9 /* Foundation.framework */,
+				A1570B791571461F00B7C7A9 /* CoreGraphics.framework */,
+				A1570B8D1571461F00B7C7A9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1570B7B1571461F00B7C7A9 /* Bolst-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1570B841571461F00B7C7A9 /* BLAppDelegate.h */,
+				A1570B851571461F00B7C7A9 /* BLAppDelegate.m */,
+				A1570B7C1571461F00B7C7A9 /* Supporting Files */,
+			);
+			path = "Bolst-iOS";
+			sourceTree = "<group>";
+		};
+		A1570B7C1571461F00B7C7A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1570B7D1571461F00B7C7A9 /* Bolst-iOS-Info.plist */,
+				A1570B7E1571461F00B7C7A9 /* InfoPlist.strings */,
+				A1570B811571461F00B7C7A9 /* main.m */,
+				A1570B831571461F00B7C7A9 /* Bolst-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1570B931571461F00B7C7A9 /* Bolst-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1570B991571461F00B7C7A9 /* Bolst_iOSTests.h */,
+				A1570B9A1571461F00B7C7A9 /* Bolst_iOSTests.m */,
+				A1570B941571461F00B7C7A9 /* Supporting Files */,
+			);
+			path = "Bolst-iOSTests";
+			sourceTree = "<group>";
+		};
+		A1570B941571461F00B7C7A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1570B951571461F00B7C7A9 /* Bolst-iOSTests-Info.plist */,
+				A1570B961571461F00B7C7A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1570B701571461F00B7C7A9 /* Bolst-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1570B9E1571461F00B7C7A9 /* Build configuration list for PBXNativeTarget "Bolst-iOS" */;
+			buildPhases = (
+				A1570B6D1571461F00B7C7A9 /* Sources */,
+				A1570B6E1571461F00B7C7A9 /* Frameworks */,
+				A1570B6F1571461F00B7C7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bolst-iOS";
+			productName = "Bolst-iOS";
+			productReference = A1570B711571461F00B7C7A9 /* Bolst-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1570B8B1571461F00B7C7A9 /* Bolst-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1570BA11571461F00B7C7A9 /* Build configuration list for PBXNativeTarget "Bolst-iOSTests" */;
+			buildPhases = (
+				A1570B871571461F00B7C7A9 /* Sources */,
+				A1570B881571461F00B7C7A9 /* Frameworks */,
+				A1570B891571461F00B7C7A9 /* Resources */,
+				A1570B8A1571461F00B7C7A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1570B921571461F00B7C7A9 /* PBXTargetDependency */,
+			);
+			name = "Bolst-iOSTests";
+			productName = "Bolst-iOSTests";
+			productReference = A1570B8C1571461F00B7C7A9 /* Bolst-iOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1570B681571461E00B7C7A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Bluemodus;
+			};
+			buildConfigurationList = A1570B6B1571461E00B7C7A9 /* Build configuration list for PBXProject "Bolst-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1570B661571461E00B7C7A9;
+			productRefGroup = A1570B721571461F00B7C7A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1570B701571461F00B7C7A9 /* Bolst-iOS */,
+				A1570B8B1571461F00B7C7A9 /* Bolst-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1570B6F1571461F00B7C7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1570B801571461F00B7C7A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1570B891571461F00B7C7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1570B981571461F00B7C7A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1570B8A1571461F00B7C7A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1570B6D1571461F00B7C7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1570B821571461F00B7C7A9 /* main.m in Sources */,
+				A1570B861571461F00B7C7A9 /* BLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1570B871571461F00B7C7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1570B9B1571461F00B7C7A9 /* Bolst_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1570B921571461F00B7C7A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1570B701571461F00B7C7A9 /* Bolst-iOS */;
+			targetProxy = A1570B911571461F00B7C7A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1570B7E1571461F00B7C7A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1570B7F1571461F00B7C7A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1570B961571461F00B7C7A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1570B971571461F00B7C7A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1570B9C1571461F00B7C7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1570B9D1571461F00B7C7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1570B9F1571461F00B7C7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bolst-iOS/Bolst-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Bolst-iOS/Bolst-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1570BA01571461F00B7C7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bolst-iOS/Bolst-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Bolst-iOS/Bolst-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1570BA21571461F00B7C7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bolst-iOS.app/Bolst-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bolst-iOS/Bolst-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Bolst-iOSTests/Bolst-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1570BA31571461F00B7C7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bolst-iOS.app/Bolst-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bolst-iOS/Bolst-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Bolst-iOSTests/Bolst-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1570B6B1571461E00B7C7A9 /* Build configuration list for PBXProject "Bolst-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1570B9C1571461F00B7C7A9 /* Debug */,
+				A1570B9D1571461F00B7C7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1570B9E1571461F00B7C7A9 /* Build configuration list for PBXNativeTarget "Bolst-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1570B9F1571461F00B7C7A9 /* Debug */,
+				A1570BA01571461F00B7C7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1570BA11571461F00B7C7A9 /* Build configuration list for PBXNativeTarget "Bolst-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1570BA21571461F00B7C7A9 /* Debug */,
+				A1570BA31571461F00B7C7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1570B681571461E00B7C7A9 /* Project object */;
+}
